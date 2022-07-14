@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+  - name: creating a file
+    file:
+      path : /opt/devops1
+      state: touch
+
+
